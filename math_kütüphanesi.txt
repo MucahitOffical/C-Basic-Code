@@ -1,0 +1,33 @@
+fmax(x,y)-fmin(x,y) = 2 sayı arasından büyük-küçük olanı seçer.
+ceil(x) = Bir üst sayıya yuvarlar.
+floor(x) = Bir üst sayıya yuvarlar.
+round(x) = En yakın sayıya yuvarlar.
+hypot(x,y) = Hipotenüsü hesaplar.
+fmod(x,y) = Ondalıklı sayılarda kalanı hesaplar.
+sqrt(x) = Karekök alır.
+pow(x,y) = x üzeri y.
+fabs(x) = Ondalıklı sayılar için mutlak alır.
+
+================Örnek===========================
+
+fmax(3.2,8.4) = 8.4 çünkü 2 sayı arasındaki en büyük sayı.  fmin bunun tam tersi.
+
+ceil(3.2) = 4 çünkü ondalıklı sayıyı yukarı yuvarlar. floor da bunun tam tersi.
+
+round(3.5) = 4, round(4.3) = 4.
+
+hypot(3,4) = 5.
+
+fmod(7.5,2) = 1.5 çünkü 7.5'un 2'ye modu 1.5tur.
+
+sqrt(25) = 5.
+
+pow(2,3) = 8.
+
+fabs(-4.2) = 4.2 .
+
+
+====Not====
+Buradakilerin hepsinin dönüş türü doubledır. Çoğu fonksiyonun sonuna f koyarak float döndürebilirsin.
+
+Örnek = sqrtf(), powf(), ceilf()
