@@ -12,6 +12,10 @@ int main(){
         printf("Gecersiz sipariş!");
     }
 
+    else if(toplam_adet < 5 && toplam_adet >= 0){
+        indirim = 1;
+    }
+
     else if(adet < 7 && adet >= 5){
         indirim = 0.7;
     }
