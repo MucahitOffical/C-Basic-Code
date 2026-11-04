@@ -43,7 +43,7 @@ int main(){
         break;
 
     default:
-        printf("Boyle bir yemegimiz yok. BOK YIYIN!");
+        printf("Boyle bir yemegimiz yok.");
         break;
     }
 }
