@@ -63,8 +63,8 @@ int main() {
     printf("Bir sayi girin: ");
     scanf("%d", &num);
 
-    while (num < 100){
-        printf("Lutfen en az 3 basamakli bir sayi giriniz: \n");
+    while (num <= 1){
+        printf("Lutfen daha buyuk bir sayi giriniz: \n");
         scanf("%d", &num);
     }
 
