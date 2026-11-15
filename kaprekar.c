@@ -62,6 +62,7 @@ int kaprekar(int sayi){
 
 int main(){
     int sayi = 0;
+    int sayac = 0;
 
     while (sayi<100 || sayi>999)
     {
@@ -74,6 +75,12 @@ int main(){
     while (netice != 495)
     {
         netice = kaprekar(netice);
+        sayac+++;
+
+        if(sayac>6){
+            printf("Yanlis sayi!");
+            return 0;
+        }
     }
 
     printf("Netice: %d", netice);
