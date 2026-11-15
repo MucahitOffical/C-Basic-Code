@@ -62,7 +62,6 @@ int kaprekar(int sayi){
 
 int main(){
     int sayi = 0;
-    int netice = 0;
 
     while (sayi<100 || sayi>999)
     {
@@ -70,7 +69,7 @@ int main(){
         scanf("%d", &sayi);
     }
 
-    netice = kaprekar(sayi);
+    int netice = kaprekar(sayi);
 
     while (netice != 495)
     {
