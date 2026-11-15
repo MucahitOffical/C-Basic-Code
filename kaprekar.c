@@ -75,7 +75,7 @@ int main(){
     while (netice != 495)
     {
         netice = kaprekar(netice);
-        sayac+++;
+        sayac++;
 
         if(sayac>6){
             printf("Yanlis sayi!");
